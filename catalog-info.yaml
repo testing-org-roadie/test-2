@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-2
+  description: A testing service
+  annotations:
+    github.com/project-slug: testing-org-roadie/test-2
+spec:
+  type: service
+  owner: user:david
+  lifecycle: experimental
